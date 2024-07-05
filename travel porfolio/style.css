@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  background-image: url("images/headerbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar-brand img {
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.navlist a {
+  color: #f7f7f7;
+  font-size: 20px;
+}
+
+.navlist a:hover {
+  color: #f7f7f7;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.9ms;
+}
+
+.search-box {
+  margin-top: 100px;
+}
+.search-heading {
+  font-size: 90px;
+  color: #f7f7f7;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px black;
+}
+.second-heading {
+  text-align: center;
+}
+.search-form {
+  display: flex;
+  justify-content: space-around;
+}
+#search-label,
+#date-label,
+#number-label {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.packages h3 {
+  font-size: 60px;
+  margin: 20px 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+.packages h6 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card img:hover {
+  scale: 0.9;
+  transition: all ease-in-out 0.9s;
+}
+.listgroup a {
+  font-size: 30px;
+  margin-right: 20px;
+  color: black;
+  display: inline-flex;
+}
+.listgroup a {
+  text-decoration: none;
+  color: black;
+}
+.listgroup i:hover {
+  color: blue;
+}
+.why-body {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.why-image-container img {
+  height: 100px;
+  max-width: 100%;
+}
+
+.services-box {
+  background-image: url("images/sevice.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 550px;
+  padding-top: 80px;
+  position: relative;
+}
+.services-heading,
+.why-title,
+.form-heading {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+.services-box2 {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.col1 {
+  float: left;
+  margin: 15px;
+}
+.readmore {
+  border: 2px solid black;
+  margin: 20px;
+  position: absolute;
+  left: 45%;
+  bottom: 5px;
+}
+.readmore:hover {
+  border: 2px solid black;
+  color: #f7f7f7;
+  background-color: black;
+}
+.form-label {
+  font-weight: bolder;
+}
+.getintouch-cont {
+  padding: 50px;
+}
+.getintouch-from input,
+label {
+  width: 400px;
+}
+
+.col-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.full-footer {
+  padding: 40px;
+  background-color: rgb(243, 241, 241);
+  font-weight: bolder;
+}
+.full-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.full-footer i {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.footer-col {
+  padding: 0px;
+}
